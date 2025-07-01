@@ -1,0 +1,42 @@
+Exercice 1:
+La Liste des commandes :
+mkdir Projet Git
+cd Projet Git
+
+1.git init
+2.git add .
+3.git config --global user.name "Abdoul Aziz"
+4.git config --global user.email "doudoumane034@gmail.com"
+5.git commit -m "Ajout index.html et style.css avec texte rouge"
+
+6.git remote add origin https://github.com/AbdoulAziz09/mon-site-html.git
+7.git branch -M main
+8.git push -u origin main
+
+Exercice 2 :
+La Liste des commandes :
+
+1. Modifier le fichier style.css (manuellement)
+2. Vérifier le statut
+git status
+3.Ajouter les fichiers modifiés
+git add .
+4.Faire un commit avec message explicite
+git commit -m "Change la couleur du texte en vert"
+5.Pousser les changements vers GitHub
+git push
+
+Exercice 3 :
+La Liste des commandes :
+
+1.git branch
+2.git branch test
+3.git checkout test
+4.git merge master
+5.Modifier les fichiers index.html et style.css manuellement (ajouter texte et changer couleur)
+6.git status
+7.git add .
+8.git log 
+9.git commit -m "Ajout deuxième texte et stylisation en bleu dans branche test"
+10.git push -u origin test
+
